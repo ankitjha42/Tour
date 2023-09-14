@@ -1,0 +1,779 @@
+.mainpagein{
+    
+    background-image: url(assets/photo-1461301214746-1e109215d6d3.jpeg);
+    height: 100vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content:  space-evenly;
+    padding-top: 40px;
+}
+.wave{
+    position:relative;
+    top: 15px;
+   
+}
+.tour{
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    color: white;
+}
+.x{
+    color: yellow;
+}
+.rightnavbar{
+    display: flex;
+    gap:85px
+}
+.home a{
+    color:yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    position: relative;
+    bottom: 20px;
+}
+.about a{
+    color: white;
+    text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.destination a{
+    color: white;
+    text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.tours a{
+    color: white;
+    text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.pages a{
+    color: white;
+    text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.blog a{
+    color: white;
+    text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.button0{
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+ background-color: rgb(11, 26, 242);
+ box-shadow: 0 0 0px  rgb(11, 26, 242),
+ 0 0 25px rgb(11, 26, 242),0 0 50px  rgb(11, 26, 242),
+ 0 0 100px rgb(11, 26, 242),0 0 200px  rgb(11, 26, 242);
+}
+
+.amazing{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 75px;
+    font-family: 'Playfair Display', serif; 
+} 
+
+.make{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    padding-top: 30px;
+}
+
+.life{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: larger;
+}
+
+.button1{
+    background: transparent;
+    
+    font-size: 35px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    color: azure;
+    position: relative;
+    left: 42.5%;
+    top: 45px;
+    overflow: hidden;
+}
+
+.botton1:hover{
+    background-color: rgb(11, 119, 242);
+ box-shadow: 0 0 5px rgb(11, 119, 242),
+ 0 0 25px  rgb(11, 119, 242) rgb(11, 119, 242),
+ 0 0 100pxrgb(11, 119, 242),0 0 200px  rgb(11, 119, 242);
+}
+
+
+.booking{
+    border-style: none;
+    height: 75px;
+    width: 600px;
+    background-color: white;
+    position: relative;
+    bottom: 85px;
+    left: 450px;
+    display: flex;
+}
+.find{
+    border-right-style: none;
+    width: 120px;
+    background-color: rgb(55, 177, 238);
+
+}
+.fa-location-dot{
+    font-size: 35px;
+    position: relative;
+    top: 18px;
+    left: 5px;
+    color:  rgb(14, 61, 85);
+}
+.holidays{
+    font-family: ''Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS;
+    position: relative;
+    left: 40px;
+    bottom: 15px;
+    
+    
+}
+.holidays:hover{
+     color: orangered;
+     cursor: pointer;
+}
+.select{
+    background: transparent;
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 10px;
+    font-size: large;
+   
+}
+.select:hover{
+    color: rgb(231, 56, 56);
+   
+    
+}
+.date{
+    background: transparent;
+    height: 47px;
+    margin-top: 13px;
+    font-size: large; 
+}
+.traveltype{
+    background: transparent;
+    height: 50px;
+    margin-top: 13px;
+    font-size: large; 
+}
+
+.button3{
+    font-size: large;
+    background: transparent;
+    margin-left: 10px;
+    background-color: rgb(55, 177, 238);
+}
+
+.core{
+    text-align: center;
+    color: orangered;
+    font-size: large;
+}
+
+.perfection{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 25px;
+}
+.ipsum{
+    text-align: center;
+    font-size: large;
+    color: rgb(114, 125, 125);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+}
+.feed{
+    display: flex;
+    border-style: none;
+    background-position: center;
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-evenly;
+    margin-top: 55px;
+    
+    
+    
+}
+.divleft{
+    border-style: none;
+    border-right-width: 2px;
+    width: 30%;
+    background-color: rgb(14, 153, 107);
+}
+.fa-flag{
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+.tell{
+    font-size: xx-large;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.establish{
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.divmid{
+    border-style: none;
+    border-right-width: 2px;
+    width: 30%;
+}
+
+.fa-location-pin{
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(234, 47, 47);
+    
+}
+.share{
+    font-size: xx-large;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.establishs{
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.a100{
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+
+}
+.divright{
+    border-style: none;
+    border-right-width: 2px;
+    width: 30%;
+}
+
+.fa-door-closed{
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: silver;
+}
+
+.preference{
+    font-size: xx-large;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.long{
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.exposure{
+    border-style: none;
+    background-color:white;
+    height: 850px;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 95px;
+}
+
+.text{
+    border-style: none;
+    background-color: rgb(246, 241, 241);
+    height: 150px;
+    width: 80%;
+    margin-left: 115px;
+}
+.top{
+    text-align: center;
+    font-size: large;
+    color: orangered;
+}
+
+.explore{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.humour{
+    font-size: large;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(114, 125, 125);
+}
+
+.image{
+    border-style: none;
+    background-color: white;
+    height: 620px;
+    width: 80%;
+    margin-left: 115px;
+    margin-top: 50px;   
+    display: flex;
+}
+.up{
+    background-image: url(assets/ireland-cliffs-of-moher_3x2.avif);
+    
+    height: 300px;
+    width: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    display: flex;
+}
+.green{
+   font-size: large;
+   color: yellow;
+   margin-top: 220px;
+   padding-left: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Ireland{
+    font-size: 35px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hour{
+   position: relative;left: 290px;
+    top: 250px;
+    border-style: none;
+    background-color: rgb(16, 113, 230);
+    height: fit-content;
+    width: max-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20%;
+}
+.down{
+    background-image: url(assets/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg);
+    height: 300px;
+    width: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.imageright{
+    background-image: url(assets/burj-dubai.jpg);
+    height: 620px;
+    width: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    margin-left: 25px;
+    
+}
+.artificial{
+    font-size: large;
+    color: yellow;
+    padding-top: 540px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+}
+.dubai{
+    font-size: 35px;
+    color: white;
+}
+.fifhour{
+    position: relative;left: 250px;
+    top: 570px;
+    border-style: none;
+    background-color: rgb(16, 113, 230);
+    height: fit-content;
+    width: max-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20%;
+}
+
+.finalpage{
+    border-style: none;
+    height: 800px;
+    width: 64.25%;
+   background-color: white;
+    margin-left: 263px;
+}
+.finaltop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pick{
+    font-size: large;
+    color: orangered;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.popular{
+    font-size: 45px;
+    
+    margin-top: 15px;
+}
+.available{
+    font-size: large;
+    
+    margin-top: 15px;
+    color: rgb(114, 125, 125);
+}
+.fa-left{
+    font-size:45px;
+    position: relative;
+    top: 70px;
+    right: 5px;
+    border-style: none;
+    width:fit-content;
+    height: fit-content;
+    background-color: rgb(16, 113, 230);
+    color: white;
+    
+}
+
+.fa-left:hover{
+    background-color: rgb(220, 237, 255);
+}
+.fa-rotate-180{
+    font-size: 45px;
+    position: relative;
+    top: 70px;
+    color: aliceblue;
+    margin-right:10px;
+    border-style: none;
+    width:fit-content;
+    height: fit-content;
+    background-color: rgb(220, 237, 255);
+    color: white;
+}
+
+.fa-rotate-180:hover{
+    background-color:  rgb(16, 113, 230);;
+}
+.finaldown{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.uk{
+    background-image: url(assets/UK-city-696x463.jpeg);
+    background-position: center;
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    background-repeat: no-repeat;
+}
+.days{
+    font-family: 'Poppins', sans-serif;
+    border-style: none;
+    height: fit-content;
+    width: max-content;
+    background-color: rgb(79, 151, 238);
+    border-radius: 7%;
+    font-size: x-large;
+    position: relative;
+    top: 300px;
+    left: 178px;
+}
+.detail1{
+    border-style: none;
+    width: 350px;
+    height: 210px;
+    background-color: aliceblue;
+    box-shadow:0px 5px 20px 0 rgb(108, 176, 232);
+    position: relative;
+    bottom: 55px;
+}
+
+.glen{
+    font-size: large;
+    color:orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.unitedkingdom{
+    font-size: 35px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.men{
+    color: rgb(114, 125, 125);
+    font-size: large;   
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+
+.boook{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 35px;
+}
+
+.button2{
+    font-size: large;
+    background-color:  rgb(108, 176, 232);
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.from{
+    color: orange;
+    margin-top: 50px;
+    margin-right: 15px;
+    font-size: large;
+}
+.price{
+   color:  rgb(108, 176, 232);
+}
+
+.atsun{
+    background-image: url(assets/t481gt.jpg);
+    background-position: center;
+    overflow: hidden;
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+
+}
+
+.detail2{
+    border-style: none;
+    width: 350px;
+    height: 210px;
+    background-color: aliceblue;
+    box-shadow:0px 5px 20px 0 rgb(108, 176, 232);
+    position: relative;
+    bottom: 7px;
+}
+
+.footer{
+    border-style: none;
+    height: 350px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.company{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.fa-facebook{
+    font-size:20px;
+}
+
+.fa-instagram{
+    font-size:20px;
+}
+.fa-twitter{
+    font-size: 20px;
+}
+.fa-github{
+    font-size: 20px;
+}
+.fa-linkedin-in{
+    font-size: 20px;
+}
+.footer2{
+    font-family: 'Poppins', sans-serif;
+}
+.support{
+    color: rgb(186, 179, 179);
+    padding-top: 50px;
+    font-size: 22.5px;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.contact{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.Faq{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.travel{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.locte{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.register{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.report{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.footer3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.xpro{
+    color: rgb(186, 179, 179);
+    padding-top: 50px;
+    font-size: 22.5px;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.about{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.benif{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.careers{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.news{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.access{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.footer4{
+    padding-top: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fa-envelope{
+    font-size:20px;
+    padding-right: 15px;
+    
+    
+}
+.Email{
+
+  color:white;
+
+}
+.mail{
+    margin-top: 25px;
+    font-size: 22.5px;
+    width: 350px;
+    background: transparent;
+    border-bottom-style:solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none; 
+    color: rgb(186, 179, 179);
+}
+
+.signup{
+    border-style: none;
+    margin-top: 35px;
+    width: 100px;
+    text-align: center;
+    height: 23px;;
+    background-color: rgb(251, 46, 46);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.hr{
+   font-size: 0.1px;
+}
+
+.terms{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.all{
+   justify-content: center;
+}
+
+
